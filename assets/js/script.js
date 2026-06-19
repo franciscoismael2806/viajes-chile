@@ -33,7 +33,7 @@ $(document).ready(function () {
             );
         }
     });
-
+    // Inicializa tooltips de Bootstrap
     $(window).on('scroll', function () {
         if ($(window).scrollTop() > 50) {
             $('.navbar-viajes').addClass('scrolled');
