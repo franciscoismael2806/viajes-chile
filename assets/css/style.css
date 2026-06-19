@@ -1,0 +1,164 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar-viajes {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+.navbar-viajes.scrolled {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+.logo-navbar {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.navbar-brand span,
+.nav-link {
+    color: #ffffff !important;
+    font-size: 0.95rem;
+}
+
+.nav-link {
+    margin-left: 0.7rem;
+}
+
+.imagen-carousel {
+    height: 100vh;
+    object-fit: cover;
+}
+
+.titulo-seccion {
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.linea-seccion {
+    border: 1px solid #16c5f0;
+    opacity: 1;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.bloque-icono {
+    background-color: #16c5f0;
+    text-align: center;
+    padding: 0.45rem;
+    margin-bottom: 0.8rem;
+}
+
+.bloque-icono i {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.texto-info {
+    font-size: 0.92rem;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.card-viajes {
+    border: none;
+    border-radius: 0;
+    background-color: #16c5f0;
+    color: #ffffff;
+}
+
+.card-viajes img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-viajes .card-body {
+    padding: 1rem;
+}
+
+.card-viajes .card-title {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card-viajes .card-text {
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
+.formulario-contacto .form-control {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.formulario-contacto .form-control:focus {
+    border-color: #16c5f0;
+    box-shadow: 0 0 0 0.1rem rgba(22, 197, 240, 0.25);
+}
+
+.boton-enviar {
+    background-color: #16c5f0;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.35rem 1rem;
+    font-size: 0.85rem;
+}
+
+.footer-viajes {
+    background-color: #16c5f0;
+}
+
+.footer-viajes h3 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.redes i {
+    font-size: 1.4rem;
+    transition: transform 0.3s ease;
+}
+
+.redes i:hover {
+    transform: scale(1.1);
+}
+
+section {
+    scroll-margin-top: 70px;
+}
+
+@media (max-width: 991.98px) {
+    .imagen-carousel {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .imagen-carousel {
+        height: 65vh;
+    }
+
+    .titulo-seccion {
+        font-size: 1.5rem;
+    }
+
+    .footer-viajes {
+        text-align: center;
+    }
+
+    .redes {
+        margin-top: 0.8rem;
+    }
+}
